@@ -22,8 +22,6 @@ for i in range(9):
     buttonpressed.append(False)
 
 while True:
-    print("saausages!", btns[3].value)
-    time.sleep(0.5)
     for i in range(9):
         if not buttonpressed[i]:
             if not btns[i].value: #it's connected
